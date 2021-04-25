@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container">
+    <header class="logo">
+      <h2 class="headline">todo</h2>
+    </header>
+
+    <div class="main">
+        <form>
+            <input type="text" placeholder="New Task ...">
+            <button type="submit"><i class="fas fa-plus-square"></i></button>
+        </form>
+
+        <div class="todoList">
+            <ul>
+
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+    </div>
+
+
+    <noscript>You need to enable Javascript to run this application.</noscript>
+    <div id="root"></div>
+    <script src="../src/index.ts"></script>
+  </body>
+</html>
